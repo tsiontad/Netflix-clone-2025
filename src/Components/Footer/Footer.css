@@ -1,0 +1,81 @@
+/* Base footer styling */
+.footer {
+  background: #111;
+  color: #ddd;
+  padding: 24px;
+}
+
+.footer__inner {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 28px;
+  align-items: flex-start;
+}
+
+/* Social icons row (full width) */
+.footer__social {
+  width: 100%;
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  padding: 8px 0;
+}
+
+/* Footer columns (blocks) */
+.footer__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 28px;
+  width: 100%;
+}
+
+.footer__listItem {
+  min-width: 180px;
+  flex: 1 1 200px;
+}
+
+/* Section titles/links */
+.footer__sectionTitle {
+  display: block;
+  font-weight: 600;
+  color: #eee;
+  text-decoration: none;
+  margin-bottom: 8px;
+}
+.footer__sublist {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.footer__sublist li {
+  margin: 6px 0;
+}
+.footer__sublist a {
+  color: #bbb;
+  text-decoration: none;
+}
+.footer__sublist a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+/* Language select styling */
+.footer__select {
+  width: 100%;
+  padding: 6px 8px;
+  background: #222;
+  color: #ddd;
+  border: 1px solid #333;
+  border-radius: 4px;
+}
+
+/* Copy / bottom bar */
+.footer__copy {
+  text-align: center;
+  color: #888;
+  padding: 16px 0 0;
+  width: 100%;
+}
