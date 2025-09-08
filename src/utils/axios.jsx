@@ -1,6 +1,8 @@
 
+import axios from "axios";
 
 const instance = axios.create({
-    baseURL: "HTTPS://api.themoviedb.org/3"
+  baseURL: "https://api.themoviedb.org/3", // ✅ no spaces, proper protocol
 });
+
 export default instance;
