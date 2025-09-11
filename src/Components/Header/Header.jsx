@@ -1,6 +1,6 @@
 
-import "./Header/Header.css";
-// import NetflixLogo from "../assets/images/Netflixlogo.png";
+import "../Header/Header.css";
+// import NetflixLogo from "../../assets/images/NetflixLogo.png";
 import SearchIcon from "@mui/icons-material/SearchRounded";
 import NotificationsNoneIcon from "@mui/icons-material/NotificationsNoneRounded";
 import AccountBoxIcon from "@mui/icons-material/AccountBoxRounded";
